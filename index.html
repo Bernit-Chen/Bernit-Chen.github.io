@@ -3,24 +3,193 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
 
   <title>Yu-Chen Chen</title>
+  <meta
+    name="description"
+    content="Yu-Chen Chen - Ph.D. student in Electrical and Computer Engineering at the University of Southern California."
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <h1>Yu-Chen Chen</h1>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="name">
+        <a href="#home">Yu-Chen Chen</a>
+      </div>
 
-  <p>
-    Ph.D. Student in Electrical and Computer Engineering<br>
-    University of Southern California
-  </p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+      </nav>
+    </div>
+  </header>
 
-  <p>
-    My research interests include electronic design automation,
-    physical design, machine learning for EDA, and 2.5D/3D integrated circuits.
-  </p>
+  <main id="home" class="container">
+
+    <section class="hero">
+
+      <div class="hero-text">
+
+        <h1>Yu-Chen Chen</h1>
+
+        <p class="subtitle">
+          Ph.D. Student in Electrical and Computer Engineering<br>
+          University of Southern California
+        </p>
+
+        <p>
+          I am a Ph.D. student in Electrical and Computer Engineering
+          at the University of Southern California (USC).
+          My research interests lie in electronic design automation (EDA),
+          physical design, optimization algorithms, machine learning for EDA,
+          and design methodologies for advanced integrated circuits.
+        </p>
+
+        <p class="links">
+          <a href="mailto:YOUR_EMAIL@usc.edu">Email</a>
+          <span>·</span>
+          <a href="https://github.com/Bernit-Chen" target="_blank">GitHub</a>
+          <span>·</span>
+          <a href="assets/Yu-Chen_Chen_CV.pdf" target="_blank">CV</a>
+        </p>
+
+      </div>
+
+      <div class="hero-photo">
+        <img
+          src="assets/profile.jpg"
+          alt="Yu-Chen Chen"
+        >
+      </div>
+
+    </section>
+
+
+    <section id="about">
+      <h2>Research Interests</h2>
+
+      <ul>
+        <li>Electronic Design Automation (EDA)</li>
+        <li>Physical Design and Placement Optimization</li>
+        <li>Optimization Algorithms for VLSI Design</li>
+        <li>Machine Learning for EDA</li>
+        <li>GPU-Accelerated EDA</li>
+        <li>2.5D/3D IC and Chiplet Design</li>
+      </ul>
+    </section>
+
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <div class="research-item">
+        <h3>Parallel Non-Integer Multiple-Cell-Height Node Remapping</h3>
+
+        <p>
+          Developed a path-parallel dynamic programming framework for
+          non-integer multiple-cell-height circuit optimization, targeting
+          improved runtime, timing, and placement quality.
+        </p>
+      </div>
+
+      <div class="research-item">
+        <h3>ML/GPU-Enhanced Mixed-Size Placement</h3>
+
+        <p>
+          Investigated cell-wise adaptive density weighting for analytical
+          mixed-size placement using machine learning models and
+          GPU-accelerated optimization.
+        </p>
+      </div>
+    </section>
+
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+
+      <div class="publication">
+        <p>
+          <strong>
+            Parallel Non-Integer Multiple-Cell-Height Node Remapping
+          </strong><br>
+
+          Z.-H. Wu, B.-Y. Huang, <strong>Y.-C. Chen</strong>,
+          Y.-W. Chang<br>
+
+          <em>
+            IEEE/ACM International Conference on Computer-Aided Design
+            (ICCAD), 2025
+          </em>
+        </p>
+      </div>
+
+      <div class="publication">
+        <p>
+          <strong>
+            Efficient Prioritized Non-Integer Multiple-Cell-Height Node Remapping
+          </strong><br>
+
+          Z.-H. Wu, B.-Y. Huang, <strong>Y.-C. Chen</strong>,
+          Y.-W. Chang<br>
+
+          <em>
+            Design Automation Conference (DAC), Late Breaking Results, 2025
+          </em>
+        </p>
+      </div>
+
+    </section>
+
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="education-item">
+        <h3>University of Southern California</h3>
+
+        <p>
+          Ph.D. in Electrical and Computer Engineering<br>
+          2026 – Present
+        </p>
+      </div>
+
+      <div class="education-item">
+        <h3>National Taiwan University</h3>
+
+        <p>
+          Electrical Engineering
+        </p>
+      </div>
+
+    </section>
+
+
+    <section id="awards">
+      <h2>Awards</h2>
+
+      <ul>
+        <li>Best Paper Award, IEEE ECICE 2025</li>
+        <li>Best Creativity Award, MakeNTU 2025</li>
+        <li>STMicroelectronics 2nd Place, MakeNTU 2025</li>
+        <li>Silicon Motion 1st Place, MakeNTU 2024</li>
+      </ul>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Yu-Chen Chen</p>
+    </div>
+  </footer>
 
 </body>
 </html>
