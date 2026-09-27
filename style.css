@@ -232,3 +232,44 @@ footer {
   line-height: 1.5;
 }
 
+.experience-item {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 38px;
+  padding: 28px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.experience-date {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
+
+.experience-content h3 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #111;
+}
+
+.experience-content h4 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.experience-content p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.55;
+}
+
+@media (max-width: 700px) {
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
