@@ -173,3 +173,15 @@ footer {
     font-size: 36px;
   }
 }
+.subtitle {
+  font-size: 19px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.affiliation {
+  font-size: 16px;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
