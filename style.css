@@ -195,33 +195,40 @@ footer {
   margin-bottom: 24px;
 }
 
+#education h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
 .education-item {
-  margin-bottom: 52px;
+  margin-bottom: 34px;
 }
 
 .education-item h3 {
-  margin: 0 0 8px;
-  font-size: 27px;
+  margin: 0 0 6px;
+  font-size: 24px;
   font-weight: 700;
   color: #111;
 }
 
 .education-item h4 {
-  margin: 0 0 10px;
-  font-size: 21px;
+  margin: 0 0 6px;
+  font-size: 19px;
   font-weight: 600;
   color: #222;
 }
 
 .edu-meta {
-  margin: 0 0 16px;
-  font-size: 17px;
+  margin: 0 0 8px;
+  font-size: 16px;
   color: #555;
 }
 
 .edu-detail {
-  margin: 5px 0;
-  font-size: 16px;
+  margin: 0;
+  font-size: 15px;
   color: #444;
-  line-height: 1.55;
+  line-height: 1.5;
 }
+
