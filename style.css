@@ -194,3 +194,34 @@ footer {
   margin-top: 0;
   margin-bottom: 24px;
 }
+
+.education-item {
+  margin-bottom: 52px;
+}
+
+.education-item h3 {
+  margin: 0 0 8px;
+  font-size: 27px;
+  font-weight: 700;
+  color: #111;
+}
+
+.education-item h4 {
+  margin: 0 0 10px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #222;
+}
+
+.edu-meta {
+  margin: 0 0 16px;
+  font-size: 17px;
+  color: #555;
+}
+
+.edu-detail {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.55;
+}
