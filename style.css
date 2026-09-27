@@ -268,15 +268,24 @@ footer {
 }
 
 .experience-content ul {
+  list-style: none;
+  padding-left: 0;
   margin: 0;
-  padding-left: 20px;
 }
 
 .experience-content li {
-  margin-bottom: 6px;
+  position: relative;
+  margin-bottom: 7px;
+  padding-left: 14px;
   font-size: 15px;
   line-height: 1.5;
   color: #444;
+}
+
+.experience-content li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
 }
 
 .experience-content li:last-child {
@@ -287,5 +296,9 @@ footer {
   .experience-item {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .experience-date {
+    margin-bottom: 4px;
   }
 }
